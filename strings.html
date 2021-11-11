@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String operations</title>
+</head>
+<body>
+  <h2>Strings Manipulation</h2>
+  <script>
+    // If you want to print the length of the name
+    var name = "John Doe";
+    var msg = ` ${name} is a good coder! `;
+    console.log(`Your name is ${name.length} characters in length`);
+    // strings manipulated in concatenation
+    var name = "John Doe ";
+    var msg = ` ${name} is a good coder! `;
+    console.log(msg);
+    var description = 'This is a "good" book';
+    console.log(description);
+    var description = "This is a 'good' book";
+    console.log(description);
+    // Best Option for such a scenario you could use backticks
+    var description = `This is a 'good' "book"`;
+    console.log(description);
+    // If you want to show book in another line
+    var description = `This is a\n 'good' "book"`;
+    console.log(description);
+    // if  you want to have some space in another line
+    var description = `This \t is a\n 'good' "book"`;
+    console.log(description);
+    // This \t and \n are escape sequence
+  </script>
+</body>
+</html>
