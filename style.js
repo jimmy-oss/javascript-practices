@@ -1,2 +1,2 @@
 let js = 'amazing';
-if (js = 'amazing') alert('javascript is fun!')
+if (js = 'amazing') alert('javascript is fun!');
