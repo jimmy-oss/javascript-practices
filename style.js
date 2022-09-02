@@ -38,3 +38,8 @@ console.log(myAge, mySarah);
 
 console.log(myAge * 2, mySarah / 10, 2 ** 3)
 // 2 * 3 meams 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = 'Jimmy';
+const lastName = 'Jammie';
+console.log(firstName + ' ' + lastName)
+// + operator is used for concatenating two strings into one inorder to add spaces in btw u add " "
