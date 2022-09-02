@@ -45,5 +45,26 @@ const johnHigherBMI = (johnsBodyMass >= marksBodyMass);
 console.log(johnHigherBMI);
 
 // DATA 2
+// Mark's variable in mass and height.
+const markMass = 95; 
+const markHeight = 1.88;
 
- 
+// John's variable in mass and height.
+const johnMass = 85;
+const johnHeight = 1.76;
+
+// Calculate Mark's BMI given their mass and height
+const markBodyMass = 95 / 1.88 ** 2 ;
+console.log(markBodyMass);
+
+// Calculate John's BMI given their mass and height
+const johnBodyMass = 85 / 1.76 ** 2;
+console.log(johnBodyMass);
+
+// Comparing their BMI is mark BMI higher than John or equal
+const markBMI = (markBodyMass >= johnBodyMass);
+console.log(markBMI);
+
+// Comparing their BMI is John BMI higher than mark or equal
+const johnBMI = (johnBodyMass >= markBodyMass);
+console.log(johnBMI);
