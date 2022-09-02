@@ -31,6 +31,10 @@ age = 30;
 // that cannot be mutated.
 // For good practise const and let are nice in writting clean codes.
 
-const myAge = 2040 - 1998;
-const mySarah = 2040 - 2018;
+const now = 2040;
+const myAge = now - 1998;
+const mySarah = now - 2018;
 console.log(myAge, mySarah);
+
+console.log(myAge * 2, mySarah / 10, 2 ** 3)
+// 2 * 3 meams 2 to the power of 3 = 2 * 2 * 2
