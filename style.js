@@ -59,3 +59,8 @@ console.log(x) // 35
 console.log(myAge > mySarah); // > , < , >=, <=
 console.log(mySarah >= 22) // >= means is sarah greater than 22 or equal to 22
 console.log(mySarah <= 35) // <= means is sarah less than or equal to 22
+
+const isFullAge = mySarah >= 29;
+console.log(isFullAge);
+console.log(now - 1998 > now - 2018);
+// now represents our current year which is 2040 and the logic is, is myAge greater than sarahs age true or false in the current year
