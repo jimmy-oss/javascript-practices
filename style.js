@@ -29,3 +29,8 @@ age = 30;
 // In const there is an error becoz of the assigned variable
 // Inshort const creates a variable which we cannot reassign its immutable a variable
 // that cannot be mutated.
+// For good practise const and let are nice in writting clean codes.
+
+const myAge = 2040 - 1998;
+const mySarah = 2040 - 2018;
+console.log(myAge, mySarah);
