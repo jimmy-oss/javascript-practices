@@ -18,8 +18,10 @@ console.log(typeof isFun);
 */
 // Var, Const and Let declarations
 
+/*
 let age = 35;
 age = 30;
+*/
 // is best used while mutating data.
 
 // Const is used in variables that are not supposed to change in the future.
@@ -32,6 +34,7 @@ age = 30;
 // For good practise const and let are nice in writting clean codes.
 
 // This is a math operator
+/*
 const now = 2040;
 const myAge = now - 1998;
 const mySarah = now - 2018;
@@ -64,3 +67,22 @@ const isFullAge = mySarah >= 29;
 console.log(isFullAge);
 console.log(now - 1998 > now - 2018);
 // now represents our current year which is 2040 and the logic is, is myAge greater than sarahs age true or false in the current year
+
+*/
+
+// Operator precedence
+const now = 2040;
+const myAge = now - 1998;
+const mySarah = now - 2018;
+
+console.log(now - 1998 > now - 2018);
+
+ 
+
+let x, y;
+x = y =(20 + 10 + 5); // x = y = 35, x =35
+console.log(y, x)
+
+const averageAge = (myAge + mySarah) /2
+console.log(myAge, mySarah, averageAge);
+// just like highschool javascript follows the law of Bodmas 
