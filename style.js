@@ -43,3 +43,11 @@ const firstName = 'Jimmy';
 const lastName = 'Jammie';
 console.log(firstName + ' ' + lastName)
 // + operator is used for concatenating two strings into one inorder to add spaces in btw u add " "
+
+let x = 20 + 10 + 5;
+x += 20;// means (x = x + 20) which is = 55
+x *= 4; // means (x = x * 4) which is = 220
+x++; // means (x = x + 1) which is 221
+x--; // means (x = x -1) which is 220
+console.log(x) // 35
+// Inshort let variable is able to mutate once the x operators is changed time by time into single scope unlike const there will be a naughty error.
