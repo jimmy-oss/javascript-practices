@@ -113,3 +113,11 @@ in moringa campus`);
 */
 
 // Taking decisions if else statements
+const age = 15;
+ 
+if(age >= 18){
+console.log('jimmy can start driving and have a driving licence 🚗');
+}else{
+ const yearsLeft = 18 - age;
+ console.log(`jimmy is too young to drive wait for another ${yearsLeft} years to come!`);
+}
