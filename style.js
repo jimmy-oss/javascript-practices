@@ -71,6 +71,7 @@ console.log(now - 1998 > now - 2018);
 */
 
 // Operator precedence
+/*
 const now = 2040;
 const myAge = now - 1998;
 const mySarah = now - 2018;
@@ -86,3 +87,12 @@ console.log(y, x)
 const averageAge = (myAge + mySarah) /2
 console.log(myAge, mySarah, averageAge);
 // just like highschool javascript follows the law of Bodmas 
+*/
+const firstName = 'jimmy';
+const firstJob = 'web developer';
+const birthYear = 1999;
+const year = 2022;
+const jimmy = "Hi " + 'my name is ' + firstName + " I'm, a " + (year - birthYear) + ' years old ' + firstJob + '!';
+console.log(jimmy); 
+
+// Template literal
