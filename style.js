@@ -95,4 +95,17 @@ const year = 2022;
 const jimmy = "Hi " + 'my name is ' + firstName + " I'm, a " + (year - birthYear) + ' years old ' + firstJob + '!';
 console.log(jimmy); 
 
-// Template literal
+// Template literal backticks
+const jimmyNew = `Hi, my name is ${firstName} I'm, a ${year - birthYear} years old ${firstJob}!`;
+console.log(jimmyNew);
+console.log(`just a normal regular string...`);
+
+// Multiline strings the \n\ code means a new line when writting a paragraph 
+console.log('Welcome to \n\
+coding school \n\
+in moringa campus');
+
+// Template literal backticks \n\ is much easier
+console.log(`Welcome to
+coding school
+in moringa campus`);
