@@ -88,6 +88,7 @@ const averageAge = (myAge + mySarah) /2
 console.log(myAge, mySarah, averageAge);
 // just like highschool javascript follows the law of Bodmas 
 */
+/*
 const firstName = 'jimmy';
 const firstJob = 'web developer';
 const birthYear = 1999;
@@ -109,3 +110,6 @@ in moringa campus');
 console.log(`Welcome to
 coding school
 in moringa campus`);
+*/
+
+// Taking decisions if else statements
