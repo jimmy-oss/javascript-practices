@@ -121,3 +121,13 @@ console.log('jimmy can start driving and have a driving licence 🚗');
  const yearsLeft = 18 - age;
  console.log(`jimmy is too young to drive wait for another ${yearsLeft} years to come!`);
 }
+// if else is called a controlled structure when executing decisions in codes
+// if else is very important in that way developers like jimmy will have more control over the code when executing decisions
+const birthYear = 1999;
+let century;
+if(birthYear <= 2000){
+   century = 20;
+}else{
+    century = 21;
+}
+console.log(century)
