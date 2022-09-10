@@ -113,16 +113,18 @@ in moringa campus`);
 */
 
 // Taking decisions if else statements
-const age = 15;
- 
+/*
+const age = 15; 
 if(age >= 18){
 console.log('jimmy can start driving and have a driving licence 🚗');
 }else{
  const yearsLeft = 18 - age;
  console.log(`jimmy is too young to drive wait for another ${yearsLeft} years to come!`);
 }
+*/
 // if else is called a controlled structure when executing decisions in codes
 // if else is very important in that way developers like jimmy will have more control over the code when executing decisions
+/*
 const birthYear = 1999;
 let century;
 if(birthYear <= 2000){
@@ -131,3 +133,34 @@ if(birthYear <= 2000){
     century = 21;
 }
 console.log(century)
+*/
+
+/*
+// type conversion  
+const inputYear = '1991';
+console.log(Number(inputYear))
+console.log(Number(inputYear) + 18);
+
+console.log(Number("jimmy"));
+console.log(typeof NaN);
+
+console.log(String(23),23);
+
+// type coercion
+console.log('I am ' + 23 + ' Years old')
+console.log('10' - '5'- 2);
+console.log('10' * '2');
+console.log('10' / '2');
+console.log('20' >= '2');
+
+
+let n = '1' + 1; // 11
+n = n - 1;
+console.log(n);
+*/
+
+// 5 falsy values 0 , '', undefined, null, nan
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('jimmy'));
+console.log(Boolean({}));
