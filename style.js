@@ -179,6 +179,7 @@ if(height){
    console.log("height is undefined")
 }
 */
+/*
 // Equality operators
 const age = '18';
 if(age === 18) console.log("you are an adult (strict!)")
@@ -208,3 +209,25 @@ else{
 }
  if(favourite !== 25)console.log("why not 25?")
  // !== is the strict version === while != is the loose version
+ */
+
+// Logical operators
+const hasDriversLicense = true; // A
+const hasGoodVision = true; //B
+console.log(hasDriversLicense && hasGoodVision);// and operator
+console.log(hasDriversLicense || hasGoodVision);// or operator
+console.log(!hasDriversLicense);// the not operator
+
+// if(hasDriversLicense && hasGoodVision){
+//    console.log("sarah is able to drive");
+// }else{
+//    console.log("someone else should drive")
+// }
+
+const isTired = false;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+if(hasDriversLicense && hasGoodVision && !isTired){
+    console.log("sarah is able to drive");
+     }else{
+       console.log("someone else should drive")
+   }
