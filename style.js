@@ -180,3 +180,31 @@ if(height){
 }
 */
 // Equality operators
+const age = '18';
+if(age === 18) console.log("you are an adult (strict!)")
+
+if (age == 18) console.log("you are an adult (loose!)")
+ // the == operator converts '18' into a number as a result 18 is equal to 18 whereas
+ // the === operator is very strict it will only validate is '18' the string equal to 18 the number it will give a false output.
+ // for writing clean code its better to avoid == operator due to type conversion and coercion which might bring lots of errors
+ // '7' == 7 this will convert '7' into a number which is equal to 7
+ // '7' === this will not convert a string into a number for best practices its better to avoid the == operator
+
+const favourite = Number(prompt("What is your favorite number!"))
+console.log(favourite)
+console.log(typeof favourite)
+
+if (favourite === 7){  
+   console.log("cool 7 is your favourite number")
+}
+else if(favourite === 25){
+   console.log("25 is also a cool number")
+}
+else if(favourite === 9){
+   console.log("cool 9 is your favourite number")
+}
+else{
+   console.log("Number is not 7 or 25 or 9")
+}
+ if(favourite !== 25)console.log("why not 25?")
+ // !== is the strict version === while != is the loose version
