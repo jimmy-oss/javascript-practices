@@ -70,11 +70,11 @@ if(dolphinBonusScore >=100){
     console.log(`The kolas team has won the match with 100 points and above!`)
   }else if(kolasBonusScore === dolphinBonusScore && kolasBonusScore >= 100 && dolphinBonusScore >= 100){
     console.log(`The kolas team and the dolphin team went for a draw!`)
-  }else if(!kolasBonusScore  > dolphinBonusScore && kolasBonusScore < 100){
+  }else if( kolasBonusScore  > dolphinBonusScore && kolasBonusScore < 100){
     console.log(`The dolphin team has won the match because the kolas team are below 100 points`)
   }else if(dolphinBonusScore > kolasBonusScore && dolphinBonusScore >= 100){
     console.log(`The dolphin team has won the match with 100 points and above`)
-  }else if(!dolphinBonusScore > kolasBonusScore && kolasBonusScore < 100){
+  }else if(dolphinBonusScore > kolasBonusScore && kolasBonusScore < 100){
     console.log(`The kolas team has won the match because the dolphin team are below 100 points`)
   }else {
     console.log(`The dolphin team and kolas team went for a draw both teams are below 100 points`)
@@ -106,11 +106,11 @@ if(dolphinScore > kolasScore && dolphinScore >= 100){
   console.log(`The dolphin team has won the match with 100 points and above!`)
 }else if(dolphinScore === kolasScore && dolphinScore >= 100 && kolasScore >= 100){
   console.log(`Both teams has the same points so its a draw!`)
-}else if(!dolphinScore > kolasScore && dolphinScore < 100){
+}else if(dolphinScore > kolasScore && dolphinScore < 100){
   console.log(`The kolas team has won because dolphin team is below 100 points!`)
 }else if(kolasScore > dolphinScore && kolasScore >= 100){
   console.log(`The kolas team has won the match with 100 points and above`)
-}else if(!kolasScore > dolphinScore && kolasScore < 100){
+}else if(kolasScore > dolphinScore && kolasScore < 100){
   console.log(`The dolphin team has won the match because the kolas team score is below 100 points!`)
 }else{
   console.log(`Both teams has the same points below 100 points so its a draw!`)
