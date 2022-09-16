@@ -211,6 +211,7 @@ else{
  // !== is the strict version === while != is the loose version
  */
 
+/*
 // Logical operators
 const hasDriversLicense = true; // A
 const hasGoodVision = true; //B
@@ -231,3 +232,92 @@ if(hasDriversLicense && hasGoodVision && !isTired){
      }else{
        console.log("someone else should drive")
    }
+ */
+// The switch
+// so the switch is used in compalison of the codes and its strict like day === 'tuesday' 
+ /*
+const day = 'saturday';
+
+ switch(day){
+    case 'monday': // day === 'monday'
+    console.log("learning fundumentals");
+    console.log("join the google meet");
+    break;
+    case 'tuesday':
+    console.log("learn theory videos");
+    break;
+    case 'wednesday':
+    case 'thursday':
+    console.log("practicing coding challenges");
+    break;
+    case 'friday':
+    console.log("do more research on coding challenges");
+    break;
+    case 'saturday':
+    case 'sunday':
+    console.log("visiting my fellow friend");
+    break;
+    default:
+    console.log("Not a valid day!")
+ }
+ */
+
+// The switch executing by using else if
+/*
+ if(day === 'monday'){
+  console.log("learning fundumentals");
+  console.log("join the google meet");
+
+ }else if(day === 'tuesday'){
+   console.log("learn theory videos");
+
+ }else if(day === 'wednesday' ||day ==='thursday'){
+   console.log("practicing coding challenges");
+
+ }else if(day === 'friday'){
+   console.log("do more research on coding challenges");
+   
+ }else if(day === 'saturday' || day === 'sunday'){
+   console.log("visiting my fellow friend");
+ }
+ else{
+   console.log("Not a valid day!")
+ }
+ */
+ /*
+ // Statements and expressions
+ // inshort statements are values which are executed but gives a value
+ // while expressions are values which are lengthy statements strings which translate our action executed but gives a value
+
+ // statement examples are
+ 5 + 5;
+ 1991;
+ true && false && !true;
+
+ // expressions examples are
+ if(50 > 10){
+   const str = "50 is greater than 10"
+ }
+ */
+ // The conditional (ternary) operator
+ const age = 23;
+ // age >= 18 ? console.log("I love drinking a beer") :
+ // console.log("I will drink some water");
+ const drink = age >= 18 ? "wine" : "water"
+ console.log(drink);
+
+ // using if statement
+let drink2;
+ if(age >= 23){
+   drink2 = 'pilsner'
+ }else{
+   drink2 = 'water'
+ }
+ console.log(drink2);
+
+ // using template literal
+ console.log(`I love to drink ${age >= 18 ? 'pilsner' : 'water'} `)
+
+// The ternary expression is not a replacement for if else statement ternary can be used to take quick decisions on template literal than the if else statement.
+// So thats where the ternary helps
+// if we have bigger codes and u require to take decisions based on conditions if else will be executed
