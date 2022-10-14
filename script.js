@@ -132,7 +132,14 @@ function passExam(name, score){
 // The function passExam is the name of the function 
 // passExam(name,score) the name and score are parameters which acts as variables and the
 // passExam which i passed the name as jimmy and score as 75 are argumenta
-passExam('jimmy', 75);
+
+function calScore(theoryQuiz,practicalQuiz){
+  let score = theoryQuiz + practicalQuiz;
+  return score
+}
+
+
+passExam('jimmy',calScore(60, 40));
 passExam('Mary', 54);
 passExam('Mike', 10);
  
