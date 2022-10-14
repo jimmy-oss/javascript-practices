@@ -95,22 +95,44 @@ function fruitProcessor (apples, oranges){
 console.log(fruitProcessor(2,4));
  */
 
-// Functions reviewing
-const calcAge = function(birthYear){
- return 2030 - birthYear;
-}
+// // Functions reviewing
+// const calcAge = function(birthYear){
+//  return 2030 - birthYear;
+// }
  
 
-const yearsUntilRetirement = function(birthYear, firstName){
-  const age = calcAge(birthYear);
-  const retirementAge = 65 - age;
-  if(retirementAge > 0){
-    console.log(`${firstName} retires in ${retirementAge} years`);
-    return retirementAge
-  }else{
-    console.log(`${firstName} has already retired`);
-    return -1
-  }
+// const yearsUntilRetirement = function(birthYear, firstName){
+//   const age = calcAge(birthYear);
+//   const retirementAge = 65 - age;
+//   if(retirementAge > 0){
+//     console.log(`${firstName} retires in ${retirementAge} years`);
+//     return retirementAge
+//   }else{
+//     console.log(`${firstName} has already retired`);
+//     return -1
+//   }
+// }
+// console.log(yearsUntilRetirement(1999,'jimmy'));
+// console.log(yearsUntilRetirement(1960,'jonas'));
+
+function passExam(name, score){
+
+  let passUni = 71;
+  let passColl = 51;
+
+  if(score >= passUni){
+    console.log(name + ' has enrolled to university ' + 'with ' + score + ' points ')
+  }else if(score >= passColl){
+   console.log(name + ' has enrolled to college ' + ' with ' + score + ' points ')
+}else{
+  console.log(name + ' has failed')
 }
-console.log(yearsUntilRetirement(1999,'jimmy'));
-console.log(yearsUntilRetirement(1960,'jonas'));
+
+}
+// The function passExam is the name of the function 
+// passExam(name,score) the name and score are parameters which acts as variables and the
+// passExam which i passed the name as jimmy and score as 75 are argumenta
+passExam('jimmy', 75);
+passExam('Mary', 54);
+passExam('Mike', 10);
+ 
